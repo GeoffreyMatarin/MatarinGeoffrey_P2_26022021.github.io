@@ -16,11 +16,7 @@ body
     width: 100%;
 }
 
-.logo
-{
-    width: 90vw;
-    
-}		
+
 .block_page
 {
 	font-family: ralewaythin, sans-serif;
@@ -29,75 +25,72 @@ body
 }
 .logo_nav
 {
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    align-items: center;
     height: 20vw;
     margin-bottom: 50px;
  }
 
 .logo_nav img
 {
-    width: 20vw;
+    width: 22vw;
     height: 14vw;
     padding-left: 2vw;
     margin-top: 2vw;
-    margin-left: 2vw;
+    margin-left: 5vw;
     
 }
 
-.logo_nav ul
+.logo
 {
-    list-style-type: none;  
-    display: flex;
-    
-    
-
-}
-
-
-
-.logo_nav nav
-{
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    margin: 0px;
+    width: 50%;
 }
 .logo_nav a
 {
-     font-size: 3.5vw;
-     text-decoration: none;
-     color: #0065FC;
- }
+    text-decoration: none;
+    color: #0065FC;
+    font-size: 3.5vw;
+}
 .sin
 {
-    position: absolute;
-    top: 7.5vw;
-    right: 50px;
+    order: 1;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 15%;
 } 
+
 .heb
 {
-    border-bottom: 2px solid #0065FC;
-    padding: 0vw 17vw 2vw 13vw;
-    position: absolute;
-    left: -5.1vw;
-    width: 22vw;
-    
-    
-    
+    order: 2; 
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 15px;
+
+       
 }
 .ac
 {
-    border-bottom: 2px solid #F2F2F2;
-    padding: 0vw 20vw 2vw 17vw;
-    position: absolute;
-    left: 46.8vw;
-    width: 12.65vw;
-    
-}
+   order: 3;
+   width: 50%;
+   display: flex;
+   justify-content: space-around; 
+   padding-top: 20px;
+   border-bottom: 3px solid #F2F2F2;
+   padding-bottom: 15px;
+   
 
+}
+.ac a
+{
+    color: black;
+}
 
 .avant_recherche
 {
