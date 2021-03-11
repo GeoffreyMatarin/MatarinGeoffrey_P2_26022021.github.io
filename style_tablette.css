@@ -8,8 +8,6 @@ font-face
     font-weight: normal;
     font-style: normal;
 }
-
-
 body
 {
 	margin: 0px;
@@ -392,17 +390,17 @@ body
 .note_pop1
 {
 	padding-top: 6vw;
-	font-stretch: 1vw;
+	font-size:  1vw;
 }
 .note_pop2
 {
 	padding-top: 6vw;
-	font-stretch: 1vw;
+	font-size: 1vw;
 }
 .note_pop3
 {
 	margin-top: 8vw;
-	font-stretch: 1vw;
+	font-size: 1vw;
 }
 .Activités
 {

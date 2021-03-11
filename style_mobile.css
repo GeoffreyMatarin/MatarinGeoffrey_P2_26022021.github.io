@@ -8,7 +8,7 @@ font-face
     url('raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}    
+}
 
 body
 {
@@ -317,7 +317,7 @@ body
 .hebergements
 {
     width: 100%;
-
+    margin-bottom: 6vw;
     display: flex;
     flex-flow: row wrap;
     background-color: white;
@@ -325,7 +325,6 @@ body
     align-items: center;
     height: auto;
     border-radius: 30px;  
-    margin-bottom:   
 }
 .titre_hebergements
 {
@@ -397,8 +396,8 @@ body
 {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    padding-left: 2vw;
+    width: 80%;
+    padding-left: 38px;
 }
 .populaires
 {
@@ -472,7 +471,8 @@ body
 .titre_act 
 {
     font-size: 4vw;
-    margin-left: 2vw;
+    margin-left: 40px;
+    width: 80%;
 }
 .block_activites
 {
@@ -485,7 +485,7 @@ body
 {
     font-size: 4vw;
     font-weight: bold;
-    padding-left: 3vw;
+    padding-left: 6vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
@@ -609,16 +609,17 @@ body
 {
     font-size: 5vw;
     font-weight: bold;
-    width: 88%;
+    width: 60%;
     margin-left: 40px;
     padding-bottom: 15px;
-    
+
 }
 .a_propos
 {
     display: flex;
     flex-flow: row wrap; 
     justify-content: flex-start;
+    width: 90%;
     
 }
 .nos_hebergements
@@ -626,5 +627,18 @@ body
     display: flex;
     flex-flow: row wrap; 
     justify-content: flex-start;
+    padding-top: 30px;
+    width: 80%;
+    margin-right: 0px;
+    
+}
+.Assistance
+{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: flex-start;
+    padding-top: 30px;
+    width: 90%;
+    
     
 }
