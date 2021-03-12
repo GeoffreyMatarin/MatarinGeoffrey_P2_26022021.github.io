@@ -1,11 +1,10 @@
-
 @media screen and (min-width:1025px)
-
+{
 font-face 
 {
     font-family: 'ralewaythin';
-    src: url('police/raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('police/raleway-variablefont_wght-webfont.woff') format('woff');
+    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -323,7 +322,7 @@ body
 {
     
     border-radius: 30px;
-    height: 16vw;
+    height: auto;
     background-color: white;
     width: 18vw;
     margin-bottom: 40px;
@@ -381,7 +380,7 @@ body
 	background-color: white;
 	border-radius: 30px;
 	width: 25vw;
-	height: 9.5vw;
+	height: 9.2vw;
 	margin-bottom: 40px;
 
 }
@@ -389,10 +388,11 @@ body
 .block_pop img
 {
 	border-radius: 30px 0px 0px 30px;
-	height: 9.2vw;
+	height: 8.8vw;
 	width: 9.9vw;
 	object-fit: cover;
-	border: 3px solid white;
+	margin: 3px 0px 3px 3px;
+	
 }
 
 .desc_pop
@@ -412,17 +412,14 @@ body
 {
 	font-size: 1vw;
 	margin-top: 0.5vw;
+	white-space: nowrap;
 }
 .note_pop
 {
-	margin-top: 2.4vw;
+	margin-top: 2vw;
 	font-size: 1vw;
-	margin-bottom: 1vw;
+	
 	width: 10vw;
-}
-.notepop3
-{
-	margin-top: 3.5vw;
 }
 
 .Activités
@@ -567,4 +564,5 @@ body
 .Assistance
 {
 	padding-right: 25vw;
+}
 }

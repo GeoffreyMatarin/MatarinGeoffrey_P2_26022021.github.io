@@ -1,5 +1,5 @@
  @media all and (max-width:767px)
-
+{
 
 @font-face 
 {
@@ -169,22 +169,25 @@ body
     width: 100%;
     display: flex;
     flex-flow: row wrap;
+    
 }
 .barre_filtres h2
 {
-    font-size: 3vw;
+    font-size: 3.5vw;
     padding: 0px 4vw 0px 3vw;
+    white-space: nowrap;
 }
 .eco
 {
     display: flex;
     align-items: center;
     width: 45vw;
-    height: 12vw;
-    margin-right: 2vw; 
+    height: 12.5vw;
     margin-bottom: 3vw; 
-    border-radius: 40px;
+    margin-right: 3vw;
+    border-radius: 45px;
     border: 2px solid #F2F2F2;
+    
     
 }
 .fa-money-bill-wave
@@ -343,6 +346,7 @@ body
 .note
 {
     font-size: 2.7vw;
+    margin-bottom: 10px;
 }
 .fa-star
 {
@@ -356,7 +360,7 @@ body
 {
     
     border-radius: 30px;
-    height: 46vw;
+    height: auto;
     background-color: white;
     width: 85vw;
     margin-bottom: 20px;
@@ -414,7 +418,7 @@ body
     
     border-radius: 40px;
     width: 85vw;
-    height: 30vw;
+    height: auto;
     margin-bottom: 20px;
 
 }
@@ -422,9 +426,10 @@ body
 .block_pop img
 {
     border-radius: 40px 0px 0px 40px;
-    height: 30vw;
+    height: 28.2vw;
     width: 30vw;
     object-fit: cover;
+    margin: 6px 0px 4px 6px;
 }
 
 .desc_pop
@@ -448,12 +453,10 @@ body
 {
     padding-top: 10vw;
     font-size: 3vw;
+    margin-bottom: 10px;
 }
-.note_pop2
-{
-    padding-top: 8vw;
-    font-size: 3vw;
-}
+
+
 
 
 
@@ -627,7 +630,6 @@ body
     flex-flow: row wrap; 
     justify-content: flex-start;
     padding-top: 30px;
-    width: 90%;
-    
-    
+    width: 90%;   
+}
 }
