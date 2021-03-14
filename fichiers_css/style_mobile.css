@@ -418,7 +418,7 @@ body
     
     border-radius: 40px;
     width: 85vw;
-    height: auto;
+    height: 29.2vw;
     margin-bottom: 20px;
 
 }
@@ -426,16 +426,17 @@ body
 .block_pop img
 {
     border-radius: 40px 0px 0px 40px;
-    height: 28.2vw;
+    height: 28vw;
     width: 30vw;
     object-fit: cover;
-    margin: 6px 0px 4px 6px;
+    margin: 2px 0px 2px 2px;
 }
 
 .desc_pop
 {
     width: 50%;
     margin-left: 30px;
+    height: 28vw;
 }
 
 .titre_desc_pop
@@ -451,9 +452,9 @@ body
 }
 .note_pop
 {
-    padding-top: 10vw;
+    padding-top: 8vw;
     font-size: 3vw;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
