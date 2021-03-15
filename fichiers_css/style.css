@@ -1,10 +1,10 @@
 @media screen and (min-width:1025px)
 {
-font-face 
+@font-face 
 {
     font-family: 'ralewaythin';
     src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff');
+    url('raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -69,6 +69,10 @@ body
 	width: 10%;
 	margin-right: 40px;
 	
+}
+.ac a
+{
+    color: black;
 }
 .sin
 {
