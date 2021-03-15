@@ -3,8 +3,8 @@
 @font-face 
 {
     font-family: 'ralewaythin';
-    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff');
+    src: url('police/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('police/raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -92,7 +92,7 @@ body
 {
     font-size: 2.5vw;
     background-color: #F2F2F2;
-    padding: 12px 16px 13px 16px;
+    padding: 16.5px 16px 15px 16px;
     border-radius: 17px 0px 0px 17px;
 }
 .ville
@@ -107,8 +107,8 @@ body
     font-size: 2.4vw;
     background-color: #0065FC;
     color: white;
-    border: 2px solid #F2F2F2;
-    padding: 11px 16px 12px 16px;
+    border: none;
+    padding: 13px 16px 12px 16px;
     border-radius: 0px 17px 17px 0px;
 
 }
@@ -269,7 +269,7 @@ body
 }
 .titre_hebergements
 {
-	font-size: 3vw;
+	font-size: 2.5vw;
 	padding-right: 300px;
 	width: 100%;
 	margin-left: 20px;
@@ -291,7 +291,7 @@ body
 {
 	margin-bottom: 0px;
 	font-size: 1.7vw;
-	margin-bottom: 7px;
+	margin-bottom: 2px;
 }
 .fa-star
 {
@@ -302,11 +302,12 @@ body
 {
 	color: #F2F2F2;
 }
+
 .heb_block
 {
     
     border-radius: 30px;
-    height: 26vw;
+    height: auto;
     background-color: white;
     width: 30vw;
     margin-bottom: 40px;
@@ -350,7 +351,7 @@ body
 }
 .titre_pop
 {
-	font-size: 3vw;
+	font-size: 2.5vw;
 	display: flex;
 	align-items: center;
 	width: 90%;
@@ -406,7 +407,7 @@ body
 }
 .titre_act
 {
-	font-size: 3vw;
+	font-size: 2.5vw;
 }
 .block_activites
 {
