@@ -29,9 +29,7 @@ body
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    height: 20vw;
-    margin-bottom: 50px;
- }
+}
 
 .logo_nav img
 {
@@ -94,7 +92,8 @@ body
 
 .avant_recherche
 {
-    width: 100%;
+    
+    margin-left: 10px;
 }
 .avant_recherche h1
 {
@@ -117,8 +116,9 @@ body
 {
     display: flex;
     align-items: center;
-    margin-right: 10px;
-    width: 100%;
+    margin-left: 10px;
+    width: auto;
+
     
 
 }
@@ -126,7 +126,7 @@ body
 {
    border-radius: 12px 0px 0px 12px;
    margin-left: 2vw;
-   padding: 2.7vw 2.6vw 2.8vw 2.6vw ; 
+   padding: 2.85vw 2.6vw 2.8vw 2.6vw ; 
    background-color: #F2F2F2;
    font-size: 4vw;
    
@@ -157,7 +157,7 @@ body
 {
     display: flex;
     flex-flow: row wrap;
-    margin-left: 2vw;
+    margin-left: 15px;
 }
 .filtres h1
 {
@@ -273,7 +273,7 @@ body
 {
     display: flex;
     align-items: center;
-    margin-left: 2vw;
+    margin-left: 18px;
 }
 .nombres_logements p
 {
@@ -298,10 +298,7 @@ body
    flex-flow: row wrap-reverse;
    justify-content: space-between;
    align-items: flex-start;
-   margin-left: 0px;
-   margin-right: 0px
-   
-
+ 
 }
 
 
@@ -359,7 +356,7 @@ body
 .heb_block
 {
     
-    border-radius: 30px;
+    border-radius: 20px;
     height: auto;
     background-color: white;
     width: 85vw;
@@ -371,7 +368,7 @@ body
 {
     width: 85vw;
     height: 28vw;
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 
 }
@@ -387,10 +384,11 @@ body
 }
 .plus
 {
-    display: flex;
-    justify-content: flex-start;
-    width: 80%;
-    padding-left: 38px;
+   display: flex;
+   justify-content: flex-start;
+   width: 100%;
+   margin-left: 21px
+    
 }
 .populaires
 {
@@ -416,7 +414,7 @@ body
     display: flex;
     background-color: white;
     
-    border-radius: 30px;
+    border-radius: 20px;
     width: 85vw;
     height: 29.6vw;
     margin-bottom: 20px;
@@ -425,7 +423,7 @@ body
 
 .block_pop img
 {
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 20px 0px 0px 20px;
     height: 28vw;
     width: 30vw;
     object-fit: cover;
@@ -464,8 +462,8 @@ body
 .titre_act 
 {
     font-size: 4vw;
-    margin-left: 40px;
-    width: 80%;
+    margin-left: 28px;
+    
 }
 .block_activites
 {
@@ -484,7 +482,7 @@ body
 }
 .act_1
 {
-   border-radius: 30px ;
+   border-radius: 20px ;
    width: 85vw;
    height: 44vw;
    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -492,7 +490,7 @@ body
 }
 .act_1 img
 {
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 85vw;
     height: 32vw;
     object-fit: cover;
@@ -508,11 +506,11 @@ body
 }
 .act_2 img
 {
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 .fort
 {
-    border-radius: 30px ;
+    border-radius: 20px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -527,7 +525,7 @@ body
 
 .iles
 {
-    border-radius: 40px ;
+    border-radius: 20px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -541,7 +539,7 @@ body
 }
 .notre_dame
 {
-    border-radius: 40px ;
+    border-radius: 20px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -555,7 +553,7 @@ body
 }
 .parc_long
 {
-    border-radius: 40px ;
+    border-radius: 20px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
