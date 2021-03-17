@@ -4,8 +4,8 @@
 @font-face 
 {
     font-family: 'ralewaythin';
-    src: url('police/raleway-variablefont_wght-webfont.woff2') format('woff2'),
-    url('police/raleway-variablefont_wght-webfont.woff') format('woff');
+    src: url('police/Raleway-VariableFont_wght.ttf') format('ttf');
+    
     font-weight: normal;
     font-style: normal;
 }
