@@ -1,4 +1,4 @@
-@media screen and (min-width:1300px)
+@media screen and (min-width:1025px)
 {
 @font-face 
 {
@@ -16,9 +16,9 @@ body
 .block_page
 {
 	font-family: ralewaythin, sans-serif;
-	width: 80%;
-	margin-left: 200px;
-	
+	width: 100%;
+	max-width: 1300px;
+	margin-left: 15.5vw;
 	
 }
 
@@ -33,7 +33,7 @@ body
 }
 .logo_nav img
 {
-	width: 150px;
+	width: 10vw;
 	padding-left: 20px;
 	
 	margin-bottom: 10px;
@@ -42,7 +42,7 @@ body
 
 .logo_nav a
 {
-	 font-size: 20px;
+	 font-size: 1.2vw;
 	 text-decoration: none;
 	 margin-right: 1vw;
 	 color: #0065FC;
@@ -58,7 +58,7 @@ body
 .heb
 {
 	border-top: 2px solid #0065FC ;
-	padding: 45px 25px 0px 20px ;
+	padding: 45px 2.5vw 0px 2.5vw ;
 	width: 10%;
 	margin-bottom: 48px;
 	margin-right: 40px;
@@ -82,13 +82,13 @@ body
 }
 .avant_recherche h1
 {
-   font-size: 20px;
+   font-size: 1.2vw;
    padding-left: 20px;
    margin-bottom: 0px;
 }
 .avant_recherche p
 {
-   font-size: 15px;
+   font-size: 0.8vw;
    padding-left: 20px;
    margin-top: 10px;
 }
@@ -105,25 +105,25 @@ body
 }
 .fa-map-marker-alt
 {
-    font-size: 15px;
+    font-size: 0.8vw;
     background-color: #F2F2F2;
-    padding: 15px;
+    padding: 0.76vw;
     border-radius: 17px 0px 0px 17px;
 }
 .ville
 {
-    font-size: 15px;
-    padding: 12px 0px 11px 10px;
+    font-size: 0.8vw;
+    padding: 0.57vw;
     border: 2px solid #F2F2F2;
     font-weight: bold;
 }
 .rechercher
 {
-    font-size: 15px;
+    font-size: 0.8vw;
     background-color: #0065FC;
     color: white;
-    border: none;
-    padding: 13px 11px 13px 11px;
+    border: 2px solid #F2F2F2;
+    padding: 0.58vw;
     border-radius: 0px 17px 17px 0px;
 
 }
@@ -136,105 +136,105 @@ body
 .filtres h1
 {
 	margin-right: 20px;	
-	font-size: 20px;
+	font-size: 1.2vw;
 }
 .barre_filtres
 {
 	display: flex;
 	align-items: center;
-	width: 60%;
+	width: 70vw;
 }
 .barre_filtres h2
 {
-	font-size: 15px;
-	padding: 0px 20px 0px 10px;
+	font-size: 0.8vw;
+	padding: 0px 1vw 0px 0.5vw;
 	white-space: nowrap;
 }
 .eco
 {
     display: flex;
 	align-items: center;
-	margin-right: 15px;	
+	margin-right: 0.5vw;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
-	width: auto;
-	height: 42px;
+	width: 9vw;
+	height: 2.5vw;
 }
 .fa-money-bill-wave
 {
 	
 	background-color: #DEEBFF;
-	padding: 15px;
+	padding: 0.9vw 0.9vw 0.9vw 0.9vw;
 	border-radius: 40px;
 	position: relative;
-	left: -1px;
+	left: -0.1vw;
 	color: #0065FC;
-	font-size: 15px;
+	font-size: 0.8vw;
 }
 .fam
 {
     display: flex;
 	align-items: center;
-	margin-right: 15px;	
+	margin-right: 0.5vw;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
-	width: auto;
-	height: 42px;
+	width: 7vw;
+	height: 2.5vw;
 
 }
 .fa-child
 {
 	
 	background-color: #DEEBFF;
-	padding: 15px;
+	padding: 0.9vw 1vw 0.9vw 1vw;
 	border-radius: 40px;
 	position: relative;
-	left: -1px;
+	left: -0.1vw;
 	color: #0065FC;
-	font-size: 15px;
+	font-size: 0.8vw;
 }
 .rom
 {
     display: flex;
 	align-items: center;
-	margin-right: 15px;	
+	margin-right: 0.5vw;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
-	width: auto;
-	height: 42px;
+	width: 8.5vw;
+	height: 2.5vw;
 }
 .fa-heart
 {
 	
 	background-color: #DEEBFF;
-	padding: 15px;
+	padding: 0.9vw 0.9vw 0.9vw 0.9vw;
 	border-radius: 40px;
 	position: relative;
-	left: -1px;
+	left: -0.1vw;
 	color: #0065FC;
-	font-size: 15px;
+	font-size: 0.8vw;
 }
 .ani
 {
     display: flex;
 	align-items: center;
-	margin-right: 15px;	
+	margin-right: 0.5vw;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
-	width: auto;
-	height: 42px;
+	width: 11vw;
+	height: 2.5vw;
 
 }
 .fa-dog
 {
 	
 	background-color: #DEEBFF;
-	padding: 15px;
+	padding: 0.9vw 0.9vw 0.9vw 0.9vw;
 	border-radius: 40px;
 	position: relative;
-	left: -1px;
+	left: -0.1vw;
 	color: #0065FC;
-	font-size: 15px;
+	font-size: 0.8vw;
 }
 .nombres_logements
 {
@@ -244,11 +244,11 @@ body
 }
 .nombres_logements p
 {
-	font-size: 15px;
+	font-size: 1vw;
 }
 .ico_info
 {
-    font-size: 15px;
+    font-size: 1vw;
     border: 2px solid #F2F2F2;
     padding: 2px 10px 2px 10px;
     border-radius: 30px;
@@ -257,7 +257,7 @@ body
 }
 .HaM
 {
-   width: 95%;
+   width: 65vw;
    display: flex;
    flex-flow: row wrap;
    justify-content: space-between;
@@ -270,20 +270,20 @@ body
 }
 .hebergements
 {
-   width: 65%;
+   width: 42vw;
    display: flex;
    flex-flow: row wrap;
    background-color: #F2F2F2;
    justify-content: space-around;
    align-items: center;
-   height: 700px;
+   height: 36vw;
    border-radius: 30px;
 
    
 }
 .titre_hebergements
 {
-	font-size: 15px;
+	font-size: 0.8vw;
 	
 	width: 100%;
 	margin-left: 20px;
@@ -295,48 +295,48 @@ body
 }
 .titre_desc
 {
-	font-size: 14px;
+	font-size: 0.9vw;
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-bottom: 0.5vw;
 	white-space: nowrap;
 }
 .text_desc
 {
-	font-size: 14px;
-	margin-bottom: 15px;
+	font-size: 0.9vw;
+	margin-bottom: 0.5vw;
 	white-space: nowrap;
 }
 .note
 {
-	margin-bottom: 10px;
+	margin-bottom: 0.5vw;
 	white-space: nowrap;
 }
 
 .fa-star
 {
 	color: #0065FC;
-	font-size: 13px;
+	font-size: 0.8vw;
 }
 .grey
 {
 	color: #F2F2F2;
-	font-size: 13px;
+	font-size: 0.8vw;
 }
 .heb_block
 {
     
     border-radius: 30px;
-    height: auto;
+    height: 12vw;
     background-color: white;
-    width: 30%;
+    width: 12vw;
     margin-bottom: 40px;
 
 }
 .heb_block img
 {
-	width: 97%;
+	width: 11.7vw;
 	border-radius: 30px 30px 0px 0px;
-	margin: 3px 3px 0px 4px;
+	margin: 0.1vw 0.1vw 0vw 0.15vw ;
 	
 	
 
@@ -345,11 +345,11 @@ body
 .afficher
 {
 	
-	font-size: 15px;
+	font-size: 1vw;
 	background-color: #F2F2F2;
 	font-weight: bold;
 	border: none;
-	margin-bottom: 15px;
+	margin-bottom: 1vw;
 }
 .plus
 {
@@ -362,18 +362,18 @@ body
 
 .populaires
 {
-    width: 30%;
+    width: 20vw;
 	background-color: #F2F2F2;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	height: 675px;
+	height: 34vw;
 	border-radius: 30px;
 	padding-bottom: 30px;
 }
 .titre_pop
 {
-	font-size: 15px;
+	font-size: 0.8vw;
 	display: flex;
 	align-items: center;
 	width: 90%;
@@ -384,8 +384,8 @@ body
 	display: flex;
 	background-color: white;
 	border-radius: 30px;
-	width: 91%;
-	height: 137px;
+	width: 18vw;
+	height: 7.9vw;
 	margin-bottom: 40px;
 
 }
@@ -393,8 +393,8 @@ body
 .block_pop img
 {
 	border-radius: 30px 0px 0px 30px;
-	height: 130px;
-	width: 140px;
+	height: 7.5vw;
+	width: 7vw;
 	object-fit: cover;
 	margin: 3px 0px 3px 3px;
 	
@@ -402,29 +402,29 @@ body
 
 .desc_pop
 {
-	width: 60%;
-	margin-left: 10px;
-	height: auto;
+	width: 20vw;
+	margin-left: 1vw;
+	height: 9vw;
 }
 
 .titre_desc_pop
 {
-	font-size: 13px;
+	font-size: 0.9vw;
 	font-weight: bold;
-	margin-top: 10px;
+	margin-top: 1vw;
 }
 .text_desc_pop
 {
-	font-size: 13px;
-	margin-top: 10px;
+	font-size: 0.9vw;
+	margin-top: 0.5vw;
 	white-space: nowrap;
 }
 .note_pop
 {
-	margin-top: 30px;
-	font-size: 12px;
+	margin-top: 1.5vw;
+	font-size: 0.8vw;
 	
-	
+	width: 10vw;
 }
 
 .Activités
@@ -432,11 +432,11 @@ body
 	margin-left: 20px;
 	margin-top: 60px;
 	margin-right: 20px;
-	width: 95%;
+	width: 65vw;
 }
 .titre_act
 {
- 	font-size: 15px;
+ 	font-size: 0.8vw;
 }
 .block_activites
 {
@@ -447,29 +447,31 @@ body
 }
 .desc_act
 {
-	font-size: 15px;
+	font-size: 1vw;
 	font-weight: bold;
-	padding: 15px 0px 15px 15px;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
 }
 .act_1
 {
    border-radius: 30px ;
-   width: 22%;
-   height: 450px;
+   width: 14vw;
+   height: 25vw;
    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
    margin-bottom: 20px;
 }
 .act_1 img
 {
 	border-radius: 30px 30px 0px 0px;
-	width: 100%;
-	height: 390px;
+	width: 14vw;
+	height: 20vw;
 	object-fit: cover;
 }
 .act_2
 {
-   width: 22%;
-   height: 450px;
+   width: 14vw;
+   height: 25vw;
    display: flex;
    flex-flow: row wrap;
    align-content: space-between;
@@ -485,58 +487,59 @@ body
 .fort
 {
 	border-radius: 30px ;
-    height: 250px;
-	width: 100%;
+    height: 12vw;
+	width: 14vw;
 	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .fort img
 {
-	width: 100%;
-	height: 190px;
+	width: 14vw;
+	height: 8vw;
 }
 
 .iles
 {
 	border-radius: 30px ;
-    height: 160px;
-	width: 100%;
+    height: 10vw;
+	width: 14vw;
 	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .iles img
 {
-	width: 100%;
-	height: 100px;
+	width: 14vw;
+	height: 6vw;
 }
 .notre_dame
 {
 	border-radius: 30px ;
-    height: 200px;
-	width: 100%;
+    
+	height: 11.5vw;
+	width: 14vw;
 	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .notre_dame img
 {
-	width: 100%;
-	height: 140px;
+	width: 14vw;
+	height: 8vw;
 }
 .parc_long
 {
 	border-radius: 30px ;
-    height: 220px;
-	width: 100%;
+    height: 12vw;
+	width: 14vw;
 	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .parc_long img
 {
-	width: 100%;
-	height: 160px;
+	width: 14vw;
+	height: 8vw;
 }
 .bas_de_page
 {
 	display: flex;
 	justify-content: space-between;
 	background-color: #F2F2F2;
-	width: 100%;
+	width: 68vw;
 	height: auto;
 	padding-top: 50px;
 	margin-top: 60px;
@@ -551,11 +554,11 @@ body
 {
 	text-decoration: none;
 	color: black;
-	font-size: 18px;
+	font-size: 0.8vw;
 }
 .titre_bas_de_pages
 {
-	font-size: 20px;
+	font-size: 1vw;
 	font-weight: bold;
 	padding-left: 40px;
 	padding-bottom: 10px;
@@ -567,6 +570,6 @@ body
 }
 .Assistance
 {
-	margin-right: 350px;
+	padding-right: 20vw;
 }
 }
