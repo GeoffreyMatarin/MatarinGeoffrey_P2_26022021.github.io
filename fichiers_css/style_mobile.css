@@ -60,6 +60,7 @@ body
     justify-content: space-around;
     padding-top: 20px;
     padding-left: 15%;
+    font-weight: bold;
 } 
 
 .heb
@@ -69,10 +70,11 @@ body
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-    border-bottom: 3px solid #0065FC;
-    padding-bottom: 15px;
-
-       
+    padding-bottom: 15px;    
+}
+.heb:hover
+{
+   border-bottom: 3px solid #0065FC;
 }
 .ac
 {
@@ -81,10 +83,11 @@ body
    display: flex;
    justify-content: space-around; 
    padding-top: 20px;
+   padding-bottom: 15px; 
+}
+.ac:hover
+{
    border-bottom: 3px solid #F2F2F2;
-   padding-bottom: 15px;
-   
-
 }
 .ac a
 {
@@ -127,7 +130,7 @@ body
 {
    border-radius: 12px 0px 0px 12px;
    margin-left: 2vw;
-   padding: 2.85vw 2.6vw 2.8vw 2.6vw ; 
+   padding: 3.95vw 3.5vw 3.7vw 3.5vw ; 
    background-color: #F2F2F2;
    font-size: 4vw;
    
@@ -136,7 +139,7 @@ body
 {
     font-size: 4vw;
     font-weight: bold;
-    padding: 2vw 0px 2vw 6vw;
+    padding: 3vw 15vw 3vw 8vw;
     border: 2px solid #F2F2F2;
     width: 99%;
     
@@ -146,7 +149,7 @@ body
  
     background-color: #0065FC;
     color: white;
-    padding: 2.4vw 2.2vw 2.3vw 2.2vw;
+    padding: 3.5vw 3.5vw 3.5vw 3.5vw;
     border-radius: 12px;
     position: relative;
     left: -14px;
@@ -201,6 +204,10 @@ body
     color: #0065FC;
     font-size: 3vw;
 }
+.fa-money-bill-wave:hover
+{
+    background-color: #F2F2F2;
+}
 .fam
 {
     display: flex;
@@ -223,6 +230,10 @@ body
     left: -1vw;
     color: #0065FC;
     font-size: 3vw;
+}
+.fa-child:hover
+{
+    background-color: #F2F2F2;
 }
 .rom
 {
@@ -248,6 +259,10 @@ body
     font-size: 3vw;
 
 }
+.fa-heart:hover
+{
+    background-color: #F2F2F2;
+}
 .ani
 {
     display: flex;
@@ -269,6 +284,10 @@ body
     left: -1vw;
     color: #0065FC;
     font-size: 3vw;
+}
+.fa-dog:hover
+{
+    background-color: #F2F2F2;
 }
 .nombres_logements
 {
@@ -357,7 +376,7 @@ body
 .heb_block
 {
     
-    border-radius: 20px;
+    border-radius: 15px;
     height: auto;
     background-color: white;
     width: 85vw;
@@ -369,7 +388,7 @@ body
 {
     width: 85vw;
     height: 28vw;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     object-fit: cover;
 
 }
@@ -415,7 +434,7 @@ body
     display: flex;
     background-color: white;
     
-    border-radius: 20px;
+    border-radius: 15px;
     width: 85vw;
     height: 29.6vw;
     margin-bottom: 20px;
@@ -424,11 +443,11 @@ body
 
 .block_pop img
 {
-    border-radius: 20px 0px 0px 20px;
-    height: 28vw;
+    border-radius: 15px 0px 0px 15px;
+    height: 27.5vw;
     width: 30vw;
     object-fit: cover;
-    margin: 0.8vw 0px 0.8vw 0.8vw;
+    margin: 1vw 0px 1vw 1.2vw;
 }
 
 .desc_pop
@@ -483,7 +502,7 @@ body
 }
 .act_1
 {
-   border-radius: 20px ;
+   border-radius: 15px ;
    width: 85vw;
    height: 44vw;
    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -491,7 +510,7 @@ body
 }
 .act_1 img
 {
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     width: 85vw;
     height: 32vw;
     object-fit: cover;
@@ -507,11 +526,11 @@ body
 }
 .act_2 img
 {
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 .fort
 {
-    border-radius: 20px ;
+    border-radius: 15px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -526,7 +545,7 @@ body
 
 .iles
 {
-    border-radius: 20px ;
+    border-radius: 15px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -540,7 +559,7 @@ body
 }
 .notre_dame
 {
-    border-radius: 20px ;
+    border-radius: 15px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
@@ -554,7 +573,7 @@ body
 }
 .parc_long
 {
-    border-radius: 20px ;
+    border-radius: 15px ;
     height: 44vw;
     width: 85vw;
     box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
